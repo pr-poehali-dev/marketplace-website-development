@@ -84,10 +84,10 @@ export default function Index() {
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="max-w-4xl mx-auto text-center text-white animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Программа для ремонта<br />бытовой техники
+              Мастерская<br />бытовой техники
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
-              Автоматизируйте работу мастерской и увеличьте прибыль в 2 раза
+              Программа для автоматизации работы и увеличения прибыли в 2 раза
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button 
@@ -138,7 +138,7 @@ export default function Index() {
               Возможности программы
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Всё необходимое для эффективного управления сервисным центром
+              Всё необходимое для эффективного управления вашей мастерской
             </p>
           </div>
 
@@ -216,7 +216,7 @@ export default function Index() {
               Готовы увеличить прибыль вашего сервиса?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Более 500 мастерских уже используют нашу программу
+              Более 500 мастерских уже автоматизировали свою работу
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -299,7 +299,7 @@ export default function Index() {
                 <div>
                   <label className="block text-sm font-semibold mb-2">Сообщение</label>
                   <Textarea
-                    placeholder="Расскажите о вашем сервисном центре..."
+                    placeholder="Расскажите о вашей мастерской..."
                     rows={4}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -329,8 +329,8 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold mb-2">Программа для сервисных центров</h3>
-              <p className="text-gray-400">Автоматизация ремонта бытовой техники</p>
+              <h3 className="text-2xl font-bold mb-2">Мастерская</h3>
+              <p className="text-gray-400">Программа для ремонта бытовой техники</p>
             </div>
 
             <div className="flex gap-4">
